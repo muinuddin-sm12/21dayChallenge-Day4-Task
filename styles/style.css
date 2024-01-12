@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+.section {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.section-text {
+    margin-left: 50px;
+}
+.section-text h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.section-text .quick-list {
+    color: gray;
+    font-weight: 500;
+}
+.section-text .our {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+.section-text .features {
+    color: orange;
+    font-weight: 700;
+}
+.section-text p {
+    margin-bottom: 20px;
+    color: rgb(112, 112, 112);
+}
+.section-text button {
+    padding: 20px 30px;
+    color: white;
+    font-weight: 700;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+}
